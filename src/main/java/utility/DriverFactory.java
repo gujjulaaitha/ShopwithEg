@@ -10,7 +10,7 @@ public class DriverFactory {
 	public void init()
 	{
 
-		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
 		
 		
 		driver=new ChromeDriver();

@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features= "C:\\Users\\kurel\\eclipse-workspace\\EmpireGlobal\\src\\test\\resources\\features",
+		features= "src\\test\\resources\\features",
 		glue="stepDefinations",
 		plugin= {"pretty","html:target/cucumber.html"},
 		tags="@login1"
